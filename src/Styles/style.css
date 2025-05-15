@@ -36,6 +36,13 @@ body, html {
     text-align: center;
 }
 
+.logo-S{
+  display: none;
+}
+
+.logo-M{
+  display: none;
+}  
 
 /* Menú */
 .dqe-navbar .nav-link {
@@ -80,4 +87,74 @@ body, html {
 
 .contact-info i {
   margin-right: 4px;
+}
+
+
+/*RESPONSIVE*/
+
+/* Mobile - pequeño: 320px a 425px */
+@media (min-width: 320px) and (max-width: 425px) {
+
+  .logo-container{
+    display: none;
+  }
+
+  .logo-M{
+  display: none;
+  } 
+  
+  .logo-S{
+    display: block;
+  }
+
+}
+
+/* Tablet: 426px a 768px */
+@media (min-width: 426px) and (max-width: 768px) {
+   
+  .navbar-toggler {
+    margin-left: auto !important;
+  }
+  .logo-container{
+    display: none;
+  }
+  .logo-M{
+  display: none;
+  }  
+  .logo-S{
+    display: block;
+  }
+
+}
+
+/* PC: 1024px a 1440px */
+@media (min-width: 1024px) and (max-width: 1440px) {
+   
+  .logo-container{
+    display: none;
+  }
+
+  .logo-S{
+    display: none;
+  }
+
+  .logo-M{
+    display: block;
+    position: absolute; /* o fixed si quieres que esté fijo en pantalla */
+    top: 21px;
+    left: 16px;
+    z-index: 1000;
+  }
+   
+
+}
+
+/* PC XL: 1920px en adelante */
+@media (min-width: 1920px) {
+  .logo-S{
+  display: none;
+  }  
+  .logo-M{
+  display: none;
+  }  
 }
