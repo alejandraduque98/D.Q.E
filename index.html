@@ -90,8 +90,79 @@
     </section>
 
     <!--AboutMe-->
-    <section class="section-AboutMe">
+    <section class="section-AboutMe d-flex justify-content-center container-fluid  py-5">
+      
+      <div class="AboutMe row p-4 position-relative z-1 bg-white ">
+        <!-- Slider de texto -->
+        <div class="col-lg-7 mb-4 mb-lg-0 pt-3 pb-3 ">
+          <div class="slider-text-container position-relative">
+            <!-- Texto 1 -->
+            <div class="slide-text active">
+                <h2 class="font-weight-bold text-uppercase heading-xlarge cormorant">
+                  Conoce quién está detrás del diseño
+                </h2>
+              <p class="Montserrat text-large ">
+                Hola, soy Alejandra Duque diseñadora UI/UX con base en ingeniería de sistemas y experiencia como desarrolladora front-end. Mi enfoque une lo técnico con lo visual para crear experiencias digitales impactantes, centradas en marcas con identidad fuerte. Acompañó a negocios que están dando sus primeros pasos o renovando su presencia digital, y también colaboró con equipos de producto que necesitan escalar sus interfaces de forma ordenada mediante sistemas de diseño sólidos. 
+                Ofrezco soluciones completas: investigación UX, wireframes, prototipos, diseño visual, composiciones fotográficas para identidad de marca e implementación con HTML, CSS, JavaScript, React y Bootstrap.     
+              </p>
 
+              <!-- Botones -->
+              <div class="slider-buttons mt-3 text-center ">
+                <button type="button" class="btn btn-link text-dark pr-4 prevSlide" >
+                  <img class="icons-row" src="src/Assets/IMG/ICONS/Icon-xl-l.svg" alt="">
+                </button>
+                <button type="button" class="btn btn-link text-dark nextSlide" >
+                  <img class="icons-row" src="src/Assets/IMG/ICONS/Icon-xl-R.svg" alt="">
+                </button>
+              </div>
+
+              <p class="text-large font-italic EB mt-3">
+                Si buscas que tu marca o producto destaque desde el primer clic, puedo ayudarte a lograrlo.
+              </p>
+              <div class="mt-4 text-center">
+                <a href="#" class="btn  btn-AboutMe">Agendar reunión</a>
+                <a href="#" class="btn  btn-AboutMe mx-4">Ver trabajo</a>
+              </div>
+            </div>
+
+          <!-- Texto 2 (ejemplo alternativo) -->
+          <div class="slide-text">
+            <h2 class="font-weight-bold text-uppercase heading-xlarge cormorant">
+              ¿Cómo hago que las ideas cobren vida?
+            </h2>
+            <p class="mt-4 Montserrat text-medium">
+              Me gusta involucrarme a fondo en cada proyecto. No solo quiero entender lo que una marca necesita, sino descubrir qué la hace especial.<br>
+              <br>
+              Con mi  experiencia como ingeniera de sistemas, desarrolladora front-end y diseño UI/UX, busco crear experiencias que no solo se vean bien, sino que realmente funcionen y conecten con las personas.
+              </br><br>
+              Trabajo con una metodología flexible Design Thinking, empezando por conocer a fondo a los usuarios y el contexto. A partir de ahí, doy forma a las ideas con wireframes y prototipos, y diseño interfaces visuales que reflejan la esencia de cada marca.
+              <br><br>
+              También me gusta pensar en grande: creo sistemas de diseño que ayudan a escalar los proyectos con coherencia y, cuando hace falta, traduzco todo ese diseño en código.
+              <br><br>
+              Ah, y si el proyecto lo permite, Realizo sesiones fotográficas de producto y creo imágenes que conectan con la identidad de tu marca de forma auténtica y visualmente coherente, para que puedas integrarlas fácilmente en tu sitio web.
+              
+            </p>
+            <!-- Botones -->
+              <div class="slider-buttons mt-3 text-center ">
+                <button type="button" class="btn btn-link text-dark pr-4 prevSlide" >
+                  <img class="icons-row" src="src/Assets/IMG/ICONS/Icon-xl-l.svg" alt="">
+                </button>
+                <button type="button" class="btn btn-link text-dark nextSlide" >
+                  <img class="icons-row" src="src/Assets/IMG/ICONS/Icon-xl-R.svg" alt="">
+                </button>
+              </div>
+
+          </div>
+
+          
+        </div>
+      </div>
+
+      <!-- Imagen sobrepuesta -->
+      <div class="sobrepuesta-img">
+        <img id="fotoHover" src="src/Assets/IMG/FOTOS/Camara.jpg" alt="Alejandra Duque " class="img-fluid rounded imagen-hover fade-img">
+      </div>
+  
     </section>
 
     <!--Services-->
@@ -105,8 +176,10 @@
     </section>
 
     
-    
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="src/scripts/animacionmaquina.js"></script>
+    <script src="src/scripts/slider.js"></script>
+    <script src="src/scripts/fotoHover.js"></script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
