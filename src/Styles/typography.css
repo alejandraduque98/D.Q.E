@@ -332,4 +332,65 @@
 .text-tiny.normal     { font-weight: 400; }
 .text-tiny.light      { font-weight: 300; }
 
+/*---RESPONSIVE*/
 
+/* Mobile - pequeño: 320px a 425px */
+@media (min-width: 320px) and (max-width: 425px) {
+    
+  .heading-xxxlarge {
+    font-size: 20px; /* 4rem */
+    line-height: 120%;
+    font-weight: bold;
+    
+  }
+
+  .heading-large {
+    font-size: 16px; /* 2.5rem */
+    line-height: 120%;
+    font-weight: lighter;
+  }
+
+}
+
+/* Tablet: 426px a 768px */
+@media (min-width: 426px) and (max-width: 768px) {
+   
+  .heading-xxxlarge {
+    font-size: 50px; /* 4rem */
+    line-height: 120%;
+    font-weight: bold;
+  }
+
+  .heading-large {
+    font-size: 20px; /* 2.5rem */
+    line-height: 120%;
+    font-weight: lighter;
+  }
+
+
+
+}
+
+/* PC: 1024px a 1440px */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  
+  .heading-xxxlarge {
+    font-size: 45px; /* 4rem */
+    line-height: 120%;
+    font-weight: bold;
+    
+  }
+
+  .heading-large {
+    font-size: 20px; /* 2.5rem */
+    line-height: 120%;
+    font-weight: lighter;
+  }
+
+
+}
+
+/* PC XL: 1920px en adelante */
+@media (min-width: 1920px) {
+ 
+}
