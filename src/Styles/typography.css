@@ -228,7 +228,7 @@
 }
 
 .heading-xxxlarge {
-  font-size: 64px; /* 4rem */
+  font-size: 70px; /* 4rem */
   line-height: 120%;
   font-weight: bold;
   
@@ -244,13 +244,13 @@
 .heading-xlarge {
   font-size: 48px; /* 3rem */
   line-height: 120%;
-  font-weight: bold;
+  font-weight:100;
 }
 
 .heading-large {
   font-size: 40px; /* 2.5rem */
   line-height: 120%;
-  font-weight: 500;
+  font-weight: lighter;
 }
 
 .heading-medium {
