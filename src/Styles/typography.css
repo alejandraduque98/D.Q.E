@@ -338,7 +338,7 @@
 @media (min-width: 320px) and (max-width: 425px) {
     
   .heading-xxxlarge {
-    font-size: 20px; /* 4rem */
+    font-size: 20px !important; /* 4rem */
     line-height: 120%;
     font-weight: bold;
     
@@ -348,6 +348,11 @@
     font-size: 16px; /* 2.5rem */
     line-height: 120%;
     font-weight: lighter;
+  }
+
+  .text-medium {
+  font-size: 1rem;
+  line-height: 150%;
   }
 
 }

@@ -338,8 +338,38 @@ section{
     width: 100vw;
   }
 
+  /*About me*/
+  .slide-text .heading-xlarge {
+    font-size: 1.8rem;
+  }
+  .section-AboutMe .slide-text .text-large {
+    font-size: 1rem;
+  }
+
+  /*--About Me*/
+
+.section-AboutMe {
+  /*background-color: aqua;*/
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 0;
+  margin: 0; 
+  }
+
+  .AboutMe{
+  width: 100vw !important;
+  padding: 0px 4px;
+  border: 1px solid black !important;
+}
+.sobrepuesta-img {
+   position: static;
+    transform: none;
+    display: block;
+    margin: 2rem auto 0;
 }
 
+}
 /* Tablet: 426px a 768px */
 @media (min-width: 426px) and (max-width: 768px) {
    
@@ -359,6 +389,44 @@ section{
   .texto-overlay {
     width: 100vw;
   }
+
+  /*About me*/
+  .slide-text .heading-xlarge {
+    font-size: 1.8rem;
+  }
+  .section-AboutMe .slide-text .text-large {
+    font-size: 1rem;
+  }
+
+  /*--About Me*/
+
+.section-AboutMe {
+  /*background-color: aqua;*/
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 0;
+  margin: 0; 
+  }
+
+  .AboutMe{
+  width: 100vw !important;
+  padding: 0px 4px;
+  border: 1px solid black !important;
+}
+/*
+.sobrepuesta-img {
+   max-width: 40%;
+   transform: translate(33%, -28%);
+}
+*/
+.sobrepuesta-img {
+   position: static;
+    transform: none;
+    display: block;
+    margin: 2rem auto 0;    
+    max-width: 49%;
+}
 
 }
 
@@ -400,6 +468,42 @@ section{
   .btn-home{
     padding: 14px 32px;
   }
+
+    /*--About Me*/
+  /*--About Me*/
+
+.section-AboutMe {
+  /*background-color: aqua;*/
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 0;
+  margin: 0; 
+  }
+
+  .AboutMe{
+  width: 100vw !important;
+  padding: 0px 4px;
+  border: 1px solid black !important;
+}
+
+/*
+.sobrepuesta-img {
+   max-width: 40%;
+   transform: translate(33%, -28%);
+}
+*/
+.sobrepuesta-img {
+      position: absolute;
+    top: 60%;
+    right: 0;
+    transform: translate(29%, -50%);
+    max-width: 62%;
+    z-index: 2;
+   
+}
+
+
  
 }
 
