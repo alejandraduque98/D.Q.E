@@ -195,7 +195,7 @@ section{
 .section-AboutMe {
   /*background-color: aqua;*/
   width: 100%;
-  height: 100vh;
+  height: auto;
   position: relative;
   padding: 0;
   margin: 0;
@@ -257,6 +257,7 @@ section{
 }
 
 .AboutMe{
+  height: auto;
   width: 50vw !important;
   padding: 20px 24px;
   border: 1px solid black !important;
@@ -309,6 +310,34 @@ section{
 
 .fade-img.fade-out {
   opacity: 0;
+}
+
+/*--Technologies*/
+  .logo-strip {
+    overflow: hidden;
+    white-space: nowrap;
+    background: transparent;
+    padding: 10px 0;
+  }
+
+  .logo-strip .logos {
+    display: inline-block;
+    animation: scroll-left 50s linear infinite;
+  }
+
+  .logo-strip .logos img {
+    height: 50px;
+    margin: 0 30px;
+    vertical-align: middle;
+  }
+
+  @keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /*---RESPONSIVE*/
