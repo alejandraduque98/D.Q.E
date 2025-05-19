@@ -313,6 +313,9 @@ section{
 }
 
 /*--Technologies*/
+  .section-technolgies{
+    height: auto;
+  }
   .logo-strip {
     overflow: hidden;
     white-space: nowrap;
@@ -340,6 +343,132 @@ section{
   }
 }
 
+.card-servicio {
+  height: 100%;
+  position: relative;
+  background-color: #1817175e; /* gris claro */
+  padding: 2rem;
+  margin: 2rem auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.card-servicio h3 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.card-servicio .descripcion {
+  padding: 1rem;
+  font-size: 0.95rem;
+  color: #222;
+  background-color: transparent;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+  border: 1px solid #333;
+}
+
+.boton-servicio {
+  display: inline-block;
+  background-color: #000;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  transition: background 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.boton-servicio:hover {
+  color: var(--neutral-0);
+  background-color: transparent;
+  text-decoration: none;
+  border: 1px solid #e9e9e9;
+}
+
+.card-servicio.card-ux:hover{
+  font-weight: 400;
+  background-image: url('/src/Assets/IMG/CONTENIDO/UX-With-Filter2.png');
+  /* filter:brightness(0.5);  Oscurece al 50% */
+  background-size: cover;
+  background-position: center;
+}
+
+.card-servicio.card-ui:hover{
+  /* filter:brightness(0.5);  Oscurece al 50% */
+  background-image: url('/src/Assets/IMG/CONTENIDO/UI-With-Filter2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.card-servicio.card-sistema:hover{
+  /* filter:brightness(0.5);  Oscurece al 50% */
+  background-image: url('/src/Assets/IMG/CONTENIDO/Sistema-With-Filter2.png');
+  background-size: cover;
+  background-position: center;
+}
+.card-servicio.card-prototipado:hover{
+  /* filter:brightness(0.5);  Oscurece al 50% */
+  background-image: url('/src/Assets/IMG/CONTENIDO/Protipado-With-Filter2.png');
+  background-size: cover;
+  background-position: center;
+}
+.card-servicio.card-Traduccion:hover{
+  /* filter:brightness(0.5);  Oscurece al 50% */
+  background-image: url('/src/Assets/IMG/CONTENIDO/Programacion-With-Filter.png');
+  background-size: cover;
+  background-position: center;
+}
+.card-servicio.card-Colaboracion:hover{
+  background-image: url('/src/Assets/IMG/CONTENIDO/Meet-With-Filter.png');
+  background-size: cover;
+  background-position: center;
+}
+.card-servicio.card-Recursos:hover{
+ /* filter:brightness(0.5);  Oscurece al 50% */
+  background-image: url('/src/Assets/IMG/CONTENIDO/Maquina-With-Filter2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.card-servicio.card-brand:hover .descripcion{
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  color: rgb(12, 12, 12);
+  padding: 1rem;
+  border-radius: 8px; 
+}
+.card-servicio.card-ux:hover .descripcion,
+.card-servicio.card-ui:hover .descripcion,
+.card-servicio.card-sistema:hover .descripcion,
+.card-servicio.card-prototipado:hover .descripcion,
+.card-servicio.card-Colaboracion:hover .descripcion,
+.card-servicio.card-Traduccion:hover .descripcion,
+.card-servicio.card-Recursos:hover .descripcion{
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: rgb(230, 228, 228);
+  padding: 1rem;
+  border-radius: 8px; 
+}
+
+.card-servicio.card-ux:hover h3,
+.card-servicio.card-ui:hover h3,
+.card-servicio.card-sistema:hover h3,
+.card-servicio.card-prototipado:hover h3,
+.card-servicio.card-Traduccion:hover h3,
+.card-servicio.card-Colaboracion:hover h3,
+.card-servicio.card-Recursos:hover h3 {
+  color: white;
+}
 /*---RESPONSIVE*/
 
 /* Mobile - pequeño: 320px a 425px */
