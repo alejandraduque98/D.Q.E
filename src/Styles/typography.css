@@ -354,6 +354,23 @@
   line-height: 150%;
   }
 
+  .heading-xlarge{
+  font-size: 32PX;
+    
+  }
+
+  .text-large {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .heading-medium {
+  font-size: 24px; /* 2rem */
+  line-height: 130%;
+  font-weight: 500;
+
+}
+
 }
 
 /* Tablet: 426px a 768px */
@@ -370,6 +387,28 @@
     line-height: 120%;
     font-weight: lighter;
   }
+
+  .text-large {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .heading-xlarge{
+  font-size: 32PX;
+    
+  }
+
+  .text-large {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .heading-medium {
+  font-size: 24px; /* 2rem */
+  line-height: 130%;
+  font-weight: 500;
+
+}
 
 
 

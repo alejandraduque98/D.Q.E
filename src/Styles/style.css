@@ -315,6 +315,8 @@ section{
 /*--Technologies*/
   .section-technolgies{
     height: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
   }
   .logo-strip {
     overflow: hidden;
@@ -348,7 +350,8 @@ section{
   position: relative;
   background-color: #1817175e; /* gris claro */
   padding: 2rem;
-  margin: 2rem auto;
+  margin: 2rem;
+  margin-bottom: 16px !important;
   text-align: center;
   overflow: hidden;
 }
@@ -362,6 +365,7 @@ section{
 }
 
 .card-servicio .descripcion {
+   position: relative;
   padding: 1rem;
   font-size: 0.95rem;
   color: #222;
@@ -438,14 +442,6 @@ section{
 }
 
 
-
-.card-servicio.card-brand:hover .descripcion{
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(4px);
-  color: rgb(12, 12, 12);
-  padding: 1rem;
-  border-radius: 8px; 
-}
 .card-servicio.card-ux:hover .descripcion,
 .card-servicio.card-ui:hover .descripcion,
 .card-servicio.card-sistema:hover .descripcion,
@@ -454,10 +450,11 @@ section{
 .card-servicio.card-Traduccion:hover .descripcion,
 .card-servicio.card-Recursos:hover .descripcion{
   background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
+  /*backdrop-filter: blur(5px);*/
   color: rgb(230, 228, 228);
   padding: 1rem;
   border-radius: 8px; 
+  border: none;
 }
 
 .card-servicio.card-ux:hover h3,
@@ -468,6 +465,38 @@ section{
 .card-servicio.card-Colaboracion:hover h3,
 .card-servicio.card-Recursos:hover h3 {
   color: white;
+}
+
+.section-Services,
+.section-technolgies,
+.conatiner-cards-tela{
+  position: relative;
+}
+
+.decoracion-tela {
+  position: absolute;
+  top: -327px;
+  left: -20px;
+  width: 1000px;
+  height: 903px;
+  background-image: url('/src/Assets/IMG/Telas/Seda-Rosa-Iz-ajustada1.png'); /* o .svg */
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+}
+
+.decoracion-tela2 {
+  position: absolute;
+  top: 600px;
+  left: -3px;
+  width: 1030px;
+  height: 1114px;
+  background-image: url('/src/Assets/IMG/Telas/Seda-Rosa-Der-lar2.png'); /* o .svg */
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+
 }
 /*---RESPONSIVE*/
 
@@ -527,6 +556,49 @@ section{
     margin: 2rem auto 0;
 }
 
+.section-technolgies {
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/*--Servies*/
+.card-servicio {
+  padding: 0.5rem;
+  margin:  0px;
+}
+.text-large {
+  font-size: 16px;
+  line-height: 150%;
+}
+.heading-medium.cormorant.text-left{
+  font-size: 24px;
+  line-height: 140%;
+}
+.decoracion-tela {
+  position: absolute;
+  top: -100px;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  background-image: url('/src/Assets/IMG/Telas/Seda-Rosa-Iz-ajustada1.png'); /* o .svg */
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+}
+
+.decoracion-tela2 {
+  position: absolute;
+  top: 702px;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  background-image: url('/src/Assets/IMG/Telas/Seda-Rosa-Der-lar2.png'); /* o .svg */
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+}
 }
 /* Tablet: 426px a 768px */
 @media (min-width: 426px) and (max-width: 768px) {
@@ -584,6 +656,39 @@ section{
     display: block;
     margin: 2rem auto 0;    
     max-width: 49%;
+}
+
+.section-technolgies {
+    height: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+/*Servicios*/
+.decoracion-tela {
+  position: absolute;
+  top: -169px;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  background-image: url('/src/Assets/IMG/Telas/Seda-Rosa-Iz-ajustada1.png'); /* o .svg */
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+}
+
+.decoracion-tela2 {
+  position: absolute;
+  top: 702px;
+  left: -20px;
+  width: 768px;
+  height: 100%;
+  background-image: url('/src/Assets/IMG/Telas/Seda-Rosa-Der-lar2.png'); /* o .svg */
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+
 }
 
 }
@@ -652,18 +757,44 @@ section{
 }
 */
 .sobrepuesta-img {
-      position: absolute;
+    position: absolute;
     top: 60%;
     right: 0;
     transform: translate(29%, -50%);
     max-width: 62%;
     z-index: 2;
+  }
+  /*Servicios*/
+  .decoracion-tela {
+  position: absolute;
+  top: -169px;
+  left: -20px;
+  width: 1024px;
+  height: 100%;
+  background-image: url('/src/Assets/IMG/Telas/Seda-Rosa-Iz-ajustada1.png'); /* o .svg */
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+}
+
+.decoracion-tela2 {
+  position: absolute;
+  top: 702px;
+  left: -20px;
+  width: 1024px;
+  background-image: url('/src/Assets/IMG/Telas/Seda-Rosa-Der-lar2.png'); /* o .svg */
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+}
    
 }
 
 
  
-}
+
 
 /* PC XL: 1920px en adelante */
 @media (min-width: 1920px) {
