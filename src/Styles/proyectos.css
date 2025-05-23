@@ -1,0 +1,7 @@
+.hr-gradient{
+    border: none;
+    height: 1px; /* o más si quieres una línea más gruesa */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.15) 100%)  !important;
+    width: 100%;
+    margin: 2rem 0; /* opcional, para espaciado */
+}
