@@ -512,7 +512,7 @@ section{
 .decoracion-tela5 {
   position: absolute;
   top: 1182px;
-  right: -282px;
+  right: 0px;
   width: 1000px;
   height: 903px;
   background-image: url('/src/Assets/IMG/Telas/Seda-ajustada.png'); /* o .svg */
@@ -558,11 +558,14 @@ section{
 
 .project-image img {
   width: 100%;
-  border-radius: 0.5rem;
+  
   object-fit: cover;
 }
 .img-pry{
   height: 100%;
+}
+.img-pry.img-aircol{
+  height: 600px;
 }
 .project-info {
   flex: 1;
@@ -601,14 +604,14 @@ section{
 }
 
 .tech-icons img {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  object-fit:contain;
 }
 .img-icons-tech{
   width: 32px;
   height: 32px;
+  border-radius: 50%;
 }
 
 .button-container-pry{
@@ -620,7 +623,9 @@ section{
 
 .button-pry {
   font-family: 'Montserrat', sans-serif;
-  width: 100%;
+  width: 100% !important;
+  display: block;
+  text-align: center;
   background: black;
   color: white;
   border: none;
@@ -679,13 +684,32 @@ section{
     top: 702px;
     left: -20px;
     width: 100%;
-    height: 100%;
+    height: 68%;
     background-image: url('/src/Assets/IMG/Telas/Seda-Rosa-Der-4.png'); /* o .svg */
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
 
   }
+
+  footer{
+    background-color: #000 !important;
+  }
+  .footer-fade-top {
+    height: 1px;
+    background: linear-gradient(to right,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.15) 35%,
+      rgba(255, 255, 255, 0.15) 100%
+    );
+  }
+  .img-social-media{
+    width: 50px; height: 50px;
+    border-radius:50%;
+  }
+
+
 
 /*---RESPONSIVE*/
 
