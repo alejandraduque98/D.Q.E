@@ -194,22 +194,20 @@
                       </span>.     
                     </p>
 
-                    <!-- Botones -->
-                    <div class="slider-buttons mt-3 text-center ">
-                      <button type="button" class="btn btn-link text-dark pr-4 prevSlide" >
-                        <img class="icons-row" src="src/Assets/IMG/ICONS/Icon-xl-l.svg" alt="">
-                      </button>
-                      <button type="button" class="btn btn-link text-dark nextSlide" >
-                        <img class="icons-row" src="src/Assets/IMG/ICONS/Icon-xl-R.svg" alt="">
-                      </button>
+                     <div class="mt-4 text-center">
+                      <a href="#" class="btn  btn-AboutMe">Agendar reunión</a>
+                      <a href="#" class="btn  btn-AboutMe mx-4 my-3">Ver trabajo</a>
                     </div>
 
                     <p class="text-large font-italic EB mt-3">
                       Si buscas que tu marca o producto destaque desde el primer clic, puedo ayudarte a lograrlo.
                     </p>
-                    <div class="mt-4 text-center">
-                      <a href="#" class="btn  btn-AboutMe">Agendar reunión</a>
-                      <a href="#" class="btn  btn-AboutMe mx-4 my-3">Ver trabajo</a>
+            
+                    <!-- Botones -->
+                    <div class="slider-buttons mt-3 text-center ">
+                      <button type="button" class="btn btn-link text-dark nextSlide" >
+                        <img class="icons-row" src="src/Assets/IMG/ICONS/Icon-xl-R.svg" alt="">
+                      </button>
                     </div>
                   </div>
 
@@ -269,9 +267,6 @@
                     <div class="slider-buttons mt-3 text-center ">
                       <button type="button" class="btn btn-link text-dark pr-4 prevSlide" >
                         <img class="icons-row" src="src/Assets/IMG/ICONS/Icon-xl-l.svg" alt="">
-                      </button>
-                      <button type="button" class="btn btn-link text-dark nextSlide" >
-                        <img class="icons-row" src="src/Assets/IMG/ICONS/Icon-xl-R.svg" alt="">
                       </button>
                     </div>
 
@@ -471,10 +466,12 @@
                 <span>Responsive</span>
               </div>
               <div class="tech-icons">
-                <img class="img-icons-tech"  src="src/Assets/IMG/TECNOLOGIAS/ICON-FIGMA.svg" alt="Figma" />
+                <div class="img-icons-tech">
+                  <img src="src/Assets/IMG/TECNOLOGIAS/Icon-Figma-24.svg" alt="Figma" />
+                </div>
               </div>
               <div class="button-conatiner-pry">
-                <button class="button-pry">VER PROYECTO</button>
+                <a class="button-pry" href="src/PAGES/proyectos.html?id=airbnb">VER PROYECTO</a>
               </div>
             </div>
             
@@ -482,24 +479,96 @@
 
           <div class="project-card">
             <div class="project-image">
-              <img class="img-pry" src="src/Assets/IMG/PROYECTOS/AIRBNB/Airbnb-Portada.png" alt="Proyecto Airbnb">
+              <img class="img-pry" src="src/Assets/IMG/PROYECTOS/CRUD-REACT/Mockup.png" alt="Proyecto Airbnb">
             </div>
             <div class="project-info">
-              <h3 class="heading-medium  cormorant ">Reserva Fácil: Diseño Responsive al Estilo Airbnb</h3>
+              <h3 class="heading-medium  cormorant ">PlayList CRUD – Tu música, tus reglas</h3>
               <p class="text-large Montserrat">
-                Este proyecto es una reinterpretación visual y funcional de una plataforma de reservas, desarrollado en Figma con enfoque en diseño responsive. A través del uso de Auto Layout, variables y componentes reutilizables, se optimizó la experiencia para distintos dispositivos (desktop, tablet y mobile). Además de garantizar escalabilidad y consistencia, el ejercicio me permitió explorar buenas prácticas de diseño UI y adaptabilidad, simulando un flujo real dentro del entorno de reservas de alojamientos.
+                Este proyecto nació como un ejercicio para combinar diseño amigable con lógica funcional, dando vida a una lista de reproducción interactiva donde cada usuario puede gestionar sus canciones favoritas. Fue desarrollado con React y conectado a Firebase, lo que permite almacenar en tiempo real cada nueva canción, edición o eliminación, de forma segura y fluida.
+
+                La idea detrás de esta app fue crear una experiencia intuitiva donde el usuario no solo interactúe con una interfaz visualmente clara, sino que también sienta control total sobre su contenido. Desde el principio me propuse construir algo más que un formulario: quería que cada parte del flujo fuera coherente, fácil de usar y estéticamente ordenada.
+
+              </p>
+              <div class="tags">
+                <span>CRUD</span>
+                <span>React Hooks</span>
+                <span>JSX</span>
+                <span>React Components</span>
+                <span>REST API</span>
+              </div>
+              <div class="tech-icons">
+                <div class="img-icons-tech">
+                  <img src="src/Assets/IMG/TECNOLOGIAS/Icon-Git-16.svg" alt="GitHub" />
+                </div>
+                <div class="img-icons-tech">
+                  <img src="src/Assets/IMG/TECNOLOGIAS/Icon-React-16.svg" alt="REACT" />
+                </div>
+                <div class="img-icons-tech">
+                  <img src="src/Assets/IMG/TECNOLOGIAS/Icon-HTML-16.svg" alt="html" />
+                </div>
+                <div class="img-icons-tech">
+                  <img src="src/Assets/IMG/TECNOLOGIAS/icon-css-16.svg" alt="Figma" />
+                </div>
+              </div>
+              <div class="button-conatiner-pry">
+                <a class="button-pry" href="src/PAGES/proyectos.html?id=crudPlayList">VER PROYECTO</a>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img class="img-pry img-aircol" src="src/Assets/IMG/PROYECTOS/AIR-COL/protada3.png" alt="Proyecto Airbnb">
+            </div>
+            <div class="project-info">
+              <h3 class="heading-medium  cormorant "> Explora el cielo: Diseño UI para App de Vuelos</h3>
+              <p class="text-large Montserrat">
+                Este proyecto es una propuesta visual para una aplicación de reservas de vuelos, desarrollada en Adobe XD con enfoque en diseño intuitivo y atractivo. El ejercicio simula una experiencia moderna y accesible para el usuario al momento de buscar y reservar vuelos, integrando una interfaz clara y minimalista que facilita la navegación y la toma de decisiones.
+                El flujo fue diseñado para reflejar un sistema funcional real, priorizando la claridad, jerarquía visual y usabilidad móvil.
+
               </p>
               <div class="tags">
                 <span>Diseño UX/UI</span>
-                <span>Investigación UX</span>
-                <span>AutoLayout</span>
-                <span>Responsive</span>
+                <span>Prototipado</span>
+                <span>Experiencia de Usuario</span>
               </div>
               <div class="tech-icons">
-                <img class="img-icons-tech"  src="src/Assets/IMG/TECNOLOGIAS/ICON-FIGMA.svg" alt="Figma" />
+                <div class="img-icons-tech">
+                  <img src="src/Assets/IMG/TECNOLOGIAS/Icon-Adobe-XD-16.svg" alt="Figma" />
+                </div>
               </div>
               <div class="button-conatiner-pry">
-                <button class="button-pry">VER PROYECTO</button>
+                <a class="button-pry" href="src/PAGES/proyectos.html?id=airCol">VER PROYECTO</a>
+              </div>
+            </div>
+            
+          </div>
+
+           <div class="project-card">
+            <div class="project-image">
+              <img class="img-pry" src="src/Assets/IMG/PROYECTOS/FOTOGRAFIA/flatazul.jpg" alt="Proyecto Airbnb">
+            </div>
+            <div class="project-info">
+              <h3 class="heading-medium  cormorant "> Fragmentos de luz: Exploraciones Visuales en Fotografía y Flatlays</h3>
+              <p class="text-large Montserrat">
+                Esta serie fotográfica reúne imágenes capturadas y compuestas con una mirada sensible y estética, donde la luz natural, la textura y el detalle se convierten en narrativas visuales. Desde composiciones estilo flatlay hasta escenas cuidadosamente intervenidas en Photoshop, cada toma busca transmitir emoción y belleza en lo cotidiano.<br>
+                Si tu proyecto, marca o sitio web necesita una propuesta visual auténtica, artística y emocional, estaré encantada de ayudarte a crear imágenes que conecten con tu audiencia. Este portafolio está abierto a colaboraciones fotográficas personalizadas y propuestas creativas.
+
+              </p>
+              <div class="tags">
+                <span>Flatlay</span>
+                <span>Composición visual</span>
+                <span>Composición digital</span>
+                <span>Edición fotográfica</span>
+              </div>
+              <div class="tech-icons">
+                <div class="img-icons-tech">
+                  <img src="src/Assets/IMG/TECNOLOGIAS/Icon-PSD-16.svg" alt="Figma" />
+                </div>
+              </div>
+              <div class="button-conatiner-pry">
+                <a class="button-pry" href="src/PAGES/galeria.html">VER PROYECTO</a>
               </div>
             </div>
             
@@ -511,6 +580,55 @@
     </section>
 
     <!---Footer-->
+    <footer class=" text-white pt-5 pb-4">
+      <div class="footer-fade-top my-3"></div>
+      <div class="container text-center text-md-left">
+        <!-- Línea superior -->
+        <div class="row  pb-3 mb-4">
+          <div class="col-md-6 d-flex align-items-center mb-3 mb-md-0">
+            <img src="src/Assets/IMG/ICONS/Icon-Write-me.svg" alt="">
+            <a href="#contacto" class="text-white text-underline cormorant text-medium mx-2">¿Tienes un proyecto en mente? Hablemos!</a>
+          </div>
+          <div class="col-md-6 d-flex align-items-center justify-content-md-end">
+            <img src="src/Assets/IMG/ICONS/Icon-World.svg" alt="">
+            <span class="cormorant text-medium mx-2">Disponible para trabajos remotos</span>
+          </div>
+
+        </div>
+
+        <!-- Íconos sociales -->
+        <div class="text-center mb-4">
+          <a href="#" class="d-inline-block  text-dark rounded-circle text-center mr-3" style="width: 50px; height: 50px; line-height: 50px;">
+            <img src="src/Assets/IMG/ICONS/Icon_behance-w.svg" class="img-social-media" alt="">
+          </a>
+          <a href="#" class="d-inline-block   rounded-circle text-center mr-3" style="width: 50px; height: 50px; line-height: 50px;">
+            <img src="src/Assets/IMG/ICONS/ICON-GIT (1).svg" class="img-social-media" alt="">
+          </a>
+          <a href="#" class="d-inline-block text-dark rounded-circle text-center" style="width: 50px; height: 50px; line-height: 50px;">
+            <img src="src/Assets/IMG/ICONS/Icon-Linkedln.svg" class="img-social-media" alt="">
+          </a>
+        </div>
+
+        <!-- Menú de navegación -->
+        <ul class="nav justify-content-center mb-3">
+          <li class="nav-item"><a href="#inicio" class="nav-link px-3 text-white cormorant text-large">INICIO</a></li>
+          <li class="nav-item text-white align-self-center">|</li>
+          <li class="nav-item"><a href="#servicios" class="nav-link px-3 text-white cormorant text-large">SERVICIOS</a></li>
+          <li class="nav-item text-white align-self-center">|</li>
+          <li class="nav-item"><a href="#proyectos" class="nav-link px-3 text-white cormorant text-large">PROYECTOS</a></li>
+          <li class="nav-item text-white align-self-center">|</li>
+          <li class="nav-item"><a href="#contacto" class="nav-link px-3 text-white cormorant text-large">CONTACTO</a></li>
+        </ul>
+
+        <!-- Créditos -->
+        <div class="text-center small">
+          <p class="mb-1 cormorant text-large">UI/UX, diseño visual y desarrollo por <strong>Maria Alejandra Calderón</strong> · Portafolio 2025</p>
+          <p class="cormorant  text-large mb-1">&copy; 2025 Maria Alejandra Calderón Duque</p>
+          <p class="cormorant text-large"><img src="src/Assets/IMG/ICONS/Icon-Location.svg" alt=""> Colombia</p>
+        </div>
+
+      </div>
+    </footer>
 
     
     <script src="src/scripts/animacionmaquina.js"></script>

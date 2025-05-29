@@ -5,3 +5,58 @@
     width: 100%;
     margin: 2rem 0; /* opcional, para espaciado */
 }
+
+.head-proyects{
+  background-color: rgba(0, 0, 0, 0) !important;
+  background-image: url(../Assets/IMG/Telas/Seda-Rosa-Iz-ajustada1.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.modal-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-img-top {
+  height: 393px;        /* Alto que tú quieras */
+  object-fit: cover;    /* Recorta la imagen para que llene el espacio */
+}
+
+.portada{
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.galeria{
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.decoracion-tela5 {
+  position: absolute;
+  top: 500px;
+  right: -282px;
+  width: 1000px;
+  height: 903px;
+  background-image: url('/src/Assets/IMG/Telas/Seda-ajustada.png'); /* o .svg */
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+}
+
+.decoracion-tela {
+  position: absolute;
+  top: 1800px;
+  left: -20px;
+  width: 1000px;
+  height: 903px;
+  background-image: url('/src/Assets/IMG/Telas/Seda-Rosa-Iz-ajustada1.png'); /* o .svg */
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+}
