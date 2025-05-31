@@ -205,20 +205,23 @@ galeria.forEach((proyecto, index) => {
   const card = document.createElement('div');
   card.className = 'col mb-4';
   card.innerHTML = `
-    <div class="card">
-      <img 
-        src="${proyecto.img}" 
-        class="card-img-top img-to-enlarge" 
-        alt="..." 
-        data-toggle="modal" 
-        data-target="#${modalId}">
-      <div class="card-body">
-        <h5 class="card-title heading-medium cormorant">${proyecto.titulo}</h5>
+    <div class="tooltip-term">
+      <div class="card">
+        <img 
+          src="${proyecto.img}" 
+          class="card-img-top img-to-enlarge" 
+          alt="..." 
+          data-toggle="modal" 
+          data-target="#${modalId}">
+        <div class="card-body">
+          <h5 class="card-title heading-medium cormorant">${proyecto.titulo}</h5>
+        </div>
       </div>
+      <span class="tooltip-text">Haz clic aquí para ampliar y descubrir más detalles.</span>
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="${modalId}" tabindex="-1" aria-hidden="true">
+    <div class="modal fade " id="${modalId}" tabindex="-1" aria-hidden="true"  ">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
           <div class="modal-header border-0">
