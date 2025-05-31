@@ -513,7 +513,7 @@ section{
   position: absolute;
   top: 1182px;
   right: 0px;
-  width: 1000px;
+  width: 810px;
   height: 903px;
   background-image: url('/src/Assets/IMG/Telas/Seda-ajustada.png'); /* o .svg */
   background-size: contain;
@@ -1060,9 +1060,6 @@ section{
 }
    
 }
-
-
- 
 
 
 /* PC XL: 1920px en adelante */

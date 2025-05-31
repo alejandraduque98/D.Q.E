@@ -17,6 +17,23 @@
     width: 100%;
     height: auto;
 }
+/*
+.modal-backdrop.show {
+  opacity: 0 !important;
+  pointer-events: none;
+}*/
+.modal {
+  z-index: 2000 !important; /* modal por encima del backdrop */
+}
+
+
+
+.modal-backdrop.show {
+  z-index: 1500 !important;
+  opacity: 0.5 !important;
+  pointer-events: none !important;
+}
+
 
 .card-img-top {
   height: 393px;        /* Alto que tú quieras */
@@ -26,37 +43,47 @@
 .portada{
   height: auto;
   position: relative;
-  z-index: 1;
+
 }
 
 .galeria{
   height: auto;
   position: relative;
-  z-index: 1;
+  
 }
 
-.decoracion-tela5 {
-  position: absolute;
-  top: 500px;
-  right: -282px;
-  width: 1000px;
-  height: 903px;
-  background-image: url('/src/Assets/IMG/Telas/Seda-ajustada.png'); /* o .svg */
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: -1;
-
+.tooltip-term {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dashed #999; /* Puedes cambiar el color si quieres */
 }
 
-.decoracion-tela {
+.tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  max-width: 240px;
+  background-color: #111; /* Fondo oscuro */
+  color: #fff;
+  text-align: left;
+  padding: 8px 10px;
+  border-radius: 6px;
   position: absolute;
-  top: 1800px;
-  left: -20px;
-  width: 1000px;
-  height: 903px;
-  background-image: url('/src/Assets/IMG/Telas/Seda-Rosa-Iz-ajustada1.png'); /* o .svg */
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: -1;
+  bottom: 100%; /* Aparece encima del texto */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s ease;
+  z-index: 10;
 
+  /* Tip visual opcional */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.tooltip-term:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+@keyframes fade {
+  from { opacity: 0; transform: translateX(10px); }
+  to   { opacity: 1; transform: translateX(0); }
 }
