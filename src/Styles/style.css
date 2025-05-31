@@ -3,6 +3,17 @@ body, html {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 100px; /* Ajusta según la altura de tu navbar */
+}
+
+.section-Services,.section-AboutMe
+{
+  scroll-margin-top: 120px;
+}
 /*--Navbaar*/
 
 /* Navbar completo pegado a los bordes y con borde inferior */
