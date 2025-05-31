@@ -716,6 +716,16 @@ section{
 /* Mobile - pequeño: 320px a 425px */
 @media (min-width: 320px) and (max-width: 425px) {
 
+  .glass-card{
+    background: rgba(255, 255, 255, 0.1); /* fondo translúcido */
+    backdrop-filter: blur(10px); /* difumina lo que hay detrás */
+    -webkit-backdrop-filter: blur(10px); /* soporte para Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+
   .logo-container{
     display: none;
   }
@@ -841,6 +851,16 @@ section{
 
 /* Tablet: 426px a 768px */
 @media (min-width: 426px) and (max-width: 768px) {
+
+  .glass-card{
+    background: rgba(255, 255, 255, 0.1); /* fondo translúcido */
+    backdrop-filter: blur(10px); /* difumina lo que hay detrás */
+    -webkit-backdrop-filter: blur(10px); /* soporte para Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
    
   .navbar-toggler {
     margin-left: auto !important;
