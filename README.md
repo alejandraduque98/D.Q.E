@@ -4,7 +4,7 @@ Este repositorio contiene el código fuente del portafolio personal de Alejandra
 .
 Este proyecto fue diseñado y desarrollado completamente por mí, cubriendo todo el proceso: diseño en Figma, creación de elementos en Photoshop y programación frontend.
 
-![Portada de protafolio](../PORTAFOLIO-DQE/src/Assets/IMG/PROYECTOS/PORTAFOLIODQE/PotardaDQE.png)
+![Portada de protafolio](src/Assets/IMG/PROYECTOS/PORTAFOLIODQE/PotardaDQE.png)
 ## Visión general del proyecto
 
 Este portafolio fue creado para:
@@ -26,19 +26,19 @@ El proyecto esta organizado con un sistema de diseño claro para garantizar cons
 El proceso de diseño comenzó en Figma, donde se definieron:
 
 - Moodboard y estilo visual
- ![wireframe de protafolio](../PORTAFOLIO-DQE/src/Assets/IMG/PROYECTOS/PORTAFOLIODQE/Wireframe.png) 
+ ![wireframe de protafolio](src/Assets/IMG/PROYECTOS/PORTAFOLIODQE/Wireframe.png) 
 - Sistema de diseño (colores, tipografías, espaciado, componentes)
- ![wireframe de protafolio](../PORTAFOLIO-DQE/src/Assets/IMG/PROYECTOS/PORTAFOLIODQE/Sytems-Colors-Logo.png) 
+ ![wireframe de protafolio](src/Assets/IMG/PROYECTOS/PORTAFOLIODQE/Sytems-Colors-Logo.png) 
 
-![wireframe de protafolio](../PORTAFOLIO-DQE/src/Assets/IMG/PROYECTOS/PORTAFOLIODQE/Varibles-Semnatic-Colors.png)
+![wireframe de protafolio](src/Assets/IMG/PROYECTOS/PORTAFOLIODQE/Varibles-Semnatic-Colors.png)
 
 - Layout y pantallas
 
- ![wireframe de protafolio](../PORTAFOLIO-DQE/src/Assets/IMG/PROYECTOS/PORTAFOLIODQE/Mokup.png) 
+ ![wireframe de protafolio](src/Assets/IMG/PROYECTOS/PORTAFOLIODQE/Mokup.png) 
  
 - Responsividad (Mobile → Tablet → Desktop)
 
- ![Mokup mobile](../PORTAFOLIO-DQE/src/Assets/IMG/PROYECTOS/PORTAFOLIODQE/Mockup-Mobile.png) 
+ ![Mokup mobile](src/Assets/IMG/PROYECTOS/PORTAFOLIODQE/Mockup-Mobile.png) 
 
 Se crearon componentes reutilizables para botones, formularios, tarjetas de proyecto, navegación y más.
 
@@ -54,7 +54,7 @@ Antes de pasar al navegador, varios elementos visuales se trabajaron en Photosho
 
 - Recursos gráficos exportados a formatos web
 
-![Seda rosa](../PORTAFOLIO-DQE/src/Assets/IMG/Telas/Seda-Rosa-Iz-ajustada.svg) 
+![Seda rosa](src/Assets/IMG/Telas/Seda-Rosa-Iz-ajustada.svg) 
 
 Los PSD me permitieron definir detalles visuales con precisión antes de implementarlos.
 
@@ -65,10 +65,10 @@ Este proyecto fue construido con:
 
 | Icono| Tecnologia |
 |-----------|-----------|
-|![Imagen HTML](../PORTAFOLIO-DQE/src/Assets/IMG/TECNOLOGIAS/ICON-HTML.svg)    | HTML  | 
-| ![Imagen CSS](../PORTAFOLIO-DQE/src/Assets/IMG/TECNOLOGIAS/ICON%20CSS.svg)  | CSS | 
-| ![Imagen Bootstrap](../PORTAFOLIO-DQE/src/Assets/IMG/TECNOLOGIAS/Icon-Bootstrap.svg)| Bootstrap  | 
-| ![Imagen js](../PORTAFOLIO-DQE/src/Assets/IMG/TECNOLOGIAS/ICON-JS.svg)   | JS |  
-| ![Imagen Photoshop](../PORTAFOLIO-DQE/src/Assets/IMG/TECNOLOGIAS/ICON-PSD.svg)  | PSD | 
-| ![Imagen Figma](../PORTAFOLIO-DQE/src/Assets/IMG/TECNOLOGIAS/Icon-Figma-24.svg)   | Figma |  
+|![Imagen HTML](src/Assets/IMG/TECNOLOGIAS/ICON-HTML.svg)    | HTML  | 
+| ![Imagen CSS](src/Assets/IMG/TECNOLOGIAS/ICON%20CSS.svg)  | CSS | 
+| ![Imagen Bootstrap](src/Assets/IMG/TECNOLOGIAS/Icon-Bootstrap.svg)| Bootstrap  | 
+| ![Imagen js](src/Assets/IMG/TECNOLOGIAS/ICON-JS.svg)   | JS |  
+| ![Imagen Photoshop](src/Assets/IMG/TECNOLOGIAS/ICON-PSD.svg)  | PSD | 
+| ![Imagen Figma](src/Assets/IMG/TECNOLOGIAS/Icon-Figma-24.svg)   | Figma |  
 
