@@ -177,6 +177,30 @@ airCol:{
     
   ]
 
+},
+
+ciberSeguridad:{
+
+  tituloHead:"Plataforma Web de Seguridad Informática (MVP)",
+  subtitulo:"Protegiendo datos y procesos con interfaces claras y seguras.",
+  slogan:"Aplicación web centrada en la seguridad informática, con flujo de usuario claro, diseñada en Figma.",
+  portada:"../Assets/IMG/PROYECTOS/PRY-CIBERSEGURIDAD/Portada-Portfolio.png",
+  descripcionPRY:"Este proyecto nació como un ejercicio de diseño centrado en la experiencia del usuario en el ámbito de la ciberseguridad. El objetivo fue crear una plataforma web clara y funcional que permita a los usuarios gestionar sistemas de seguridad, monitorear alertas y configurar parámetros sin confusión ni sobrecarga visual.<br><br>Diseñada en Figma, maquetada en HTML/CSS, la plataforma cumple con buenas prácticas de desarrollo y busca alinearse con normas de ciberseguridad reconocidas, como ISO 27000 y PSI, la plataforma presenta pantallas como: inicio de sesión seguro, panel principal con indicadores de seguridad, gestión de alertas y configuración de sistemas. Cada pantalla fue pensada para entregar información de manera jerárquica, con énfasis en la seguridad, la accesibilidad y la claridad de los procesos.<br><br>Este proyecto me permitió profundizar en cómo una interfaz puede transmitir confianza y orden, incluso en entornos donde la información es crítica. Más allá del diseño visual, la intención fue crear un flujo lógico y seguro, donde cada acción del usuario tenga un propósito claro y un resultado predecible.<br><br><strong>Por motivos de confidencialidad, el proyecto completo solo puede mostrarse en entrevistas privadas.</strong>",
+  galeria:[
+    {
+      img: "../Assets/IMG/PROYECTOS/PRY-CIBERSEGURIDAD/Sistema-De.Diseño.png",
+      titulo: "Sistema de Diseño",
+      descripcion: "Este sistema de diseño organiza tipografías, colores, iconos y componentes reutilizables para garantizar consistencia y eficiencia en la plataforma, facilitando la implementación de futuras funciones de seguridad."
+    },
+    {
+      img: "../Assets/IMG/PROYECTOS/PRY-CIBERSEGURIDAD/Login.png",
+      titulo: "Pantalla de Inicio de Sesión Seguro.",
+      descripcion: "Diseñada para autenticar usuarios de manera clara y confiable, con énfasis en la protección de datos y la facilidad de uso, siguiendo buenas prácticas de UX y seguridad informática."
+    },
+    
+    
+  ]
+
 }
 
 };
